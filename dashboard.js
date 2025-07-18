@@ -3,13 +3,13 @@ import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10
 
 // Replace with your config
 const firebaseConfig = {
-  apiKey: "YOUR_KEY",
-  authDomain: "your-project.firebaseapp.com",
-  databaseURL: "https://your-project.firebaseio.com",
-  projectId: "your-project",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "XXXX",
-  appId: "XXXX"
+  apiKey: "AIzaSyCSoa0NHZVFODfdBQ4DCHihgeYB4mkBQAw",
+  authDomain: "actixen-automation.firebaseapp.com",
+  databaseURL: "https://actixen-automation-default-rtdb.firebaseio.com",
+  projectId: "actixen-automation",
+  storageBucket: "actixen-automation.firebasestorage.app",
+  messagingSenderId: "925821730810",
+  appId: "1:925821730810:web:47bcc0ec27ea6bdb66ee43"
 };
 
 const app = initializeApp(firebaseConfig);
