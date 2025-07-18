@@ -1,19 +1,14 @@
-// Import this in script.js using `import './firebase.js';`
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
-
-// TODO: Replace with your own Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "your-app.firebaseapp.com",
-  databaseURL: "https://your-app.firebaseio.com",
-  projectId: "your-app",
-  storageBucket: "your-app.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyCSoa0NHZVFODfdBQ4DCHihgeYB4mkBQAw",
+  authDomain: "actixen-automation.firebaseapp.com",
+  databaseURL: "https://actixen-automation-default-rtdb.firebaseio.com",
+  projectId: "actixen-automation",
+  storageBucket: "actixen-automation.firebasestorage.app",
+  messagingSenderId: "925821730810",
+  appId: "1:925821730810:web:47bcc0ec27ea6bdb66ee43",
+  measurementId: "G-J6PD5X52GD"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getDatabase(app);
-
-export { db, ref, push };
+const analytics = getAnalytics(app);
